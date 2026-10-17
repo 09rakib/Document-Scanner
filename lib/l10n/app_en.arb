@@ -1,0 +1,269 @@
+{
+  "@@locale": "en",
+  "appName": "DocScan",
+  "documentsTitle": "Documents",
+  "emptyDocumentsTitle": "Scan your first document",
+  "emptyDocumentsBody": "Your saved PDFs will appear here.",
+  "scan": "Scan",
+  "pageNotFound": "This page could not be found.",
+  "backToDocuments": "Back to documents",
+  "largePdfPreview": "PDF saved. Showing its scanned pages to keep memory use low.",
+  "pageCount": "{count, plural, =1{1 page} other{{count} pages}}",
+  "documentTitle": "Document",
+  "scanSaveFailed": "The scan could not be saved. Check free storage and try again.",
+  "scanInProgress": "Scanning / saving…",
+  "previousPage": "Previous page",
+  "documentsLoadFailed": "Saved documents could not be loaded.",
+  "scanPermissionDenied": "The scanner could not access the camera or selected photos. Check its permissions in device settings, then try again.",
+  "scanUnsupported": "Document scanning is not supported on this device. It requires Android 7 or newer and at least 1.7 GB of device memory.",
+  "scanServicesUnavailable": "Enable or update Google Play services, then try scanning again.",
+  "loading": "Loading",
+  "previewFailed": "The PDF could not be opened. It may be missing or damaged.",
+  "scanCorruptOutput": "The scanner returned an incomplete or unreadable document. Please scan it again.",
+  "defaultDocumentName": "Scan {date}",
+  "documentMissing": "This document could not be found.",
+  "scanUnavailable": "The scanner could not start. Update Google Play services and connect to the internet for its first-time setup, then try again.",
+  "nextPage": "Next page",
+  "currentPage": "Page {page} of {total}",
+  "scanNoSpace": "There is not enough free storage to save this scan. Free some space and scan again.",
+  "retry": "Try again",
+  "@defaultDocumentName": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@pageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@currentPage": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "searchDocuments": "Search documents",
+  "clearSearch": "Clear search",
+  "sort": "Sort",
+  "sortNewest": "Newest first",
+  "sortOldest": "Oldest first",
+  "sortName": "Name",
+  "noSearchResults": "No matching documents",
+  "selectAll": "Select all results",
+  "delete": "Delete",
+  "deleteDocuments": "Delete documents?",
+  "cancel": "Cancel",
+  "rename": "Rename",
+  "save": "Save",
+  "documentName": "Document name",
+  "nameRequired": "Enter a document name",
+  "share": "Share",
+  "saveToDevice": "Save to device",
+  "documentSaved": "PDF saved to your selected location",
+  "documentActionFailed": "Could not complete this action. Check that the PDF is available and there is enough free storage, then try again.",
+  "deleteCleanupPending": "Documents deleted. Remaining temporary files will be cleaned up when you reopen the app.",
+  "sizeKilobytes": "{size} KB",
+  "@sizeKilobytes": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "sizeMegabytes": "{size} MB",
+  "@sizeMegabytes": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "selectedCount": "{count} selected",
+  "@selectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "documentsDeleted": "{count, plural, =1{Document deleted} other{{count} documents deleted}}",
+  "@documentsDeleted": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteConfirmation": "Permanently delete {count} selected document(s) and their scanned pages? This cannot be undone.",
+  "@deleteConfirmation": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "compressPdf": "Compress PDF",
+  "compressionChoice": "Quality or target size",
+  "qualityHigh": "High quality",
+  "qualityMedium": "Medium quality",
+  "qualityLow": "Low quality",
+  "compressionStart": "Compress",
+  "compressionWorking": "Compressing…",
+  "compressionSaving": "Saving compressed copy…",
+  "compressionCancelling": "Cancelling…",
+  "compressionOriginalKept": "Save a new copy. Your original document stays unchanged.",
+  "compressionQualityWarning": "Smaller files can make fine print blurry. Check the preview before saving.",
+  "compressionTargetNote": "Target sizes use 1 KB = 1,024 bytes. Some documents cannot fit a small target.",
+  "compressionBefore": "Original PDF",
+  "compressionAfter": "Compressed PDF",
+  "compressionTargetMissed": "The target could not be reached. This is the smallest result from the available quality levels. Check legibility before saving.",
+  "compressionNotSmaller": "This result is not smaller than the original. Try a lower quality or a smaller target.",
+  "saveCompressedCopy": "Save new copy",
+  "compressedDocumentName": "{name} (compressed)",
+  "compressionMissingPages": "The original PDF or its scanned pages are missing. Please scan the document again.",
+  "compressionCorruptPage": "A scanned page cannot be read. Please scan the document again.",
+  "compressionPageTooLarge": "A page needs more memory than is available. Scan it again at a smaller size.",
+  "compressionNoSpace": "Not enough free storage to compress or save. Free some space and try again.",
+  "compressionFailed": "Compression could not be completed. Your original document is safe. Please try again.",
+  "compressionPreview": "First page preview",
+  "compressionProgress": "Attempt {attempt} of {attempts} · Page {page} of {pages}",
+  "compressionReduction": "{percent}% smaller",
+  "@compressedDocumentName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@compressionReduction": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "@compressionProgress": {
+    "placeholders": {
+      "attempt": {
+        "type": "int"
+      },
+      "attempts": {
+        "type": "int"
+      },
+      "page": {
+        "type": "int"
+      },
+      "pages": {
+        "type": "int"
+      }
+    }
+  },
+  "settings": "Settings",
+  "language": "Language",
+  "languageEnglish": "English",
+  "languageBangla": "বাংলা",
+  "followSystem": "Follow device",
+  "theme": "Theme",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "defaultCompression": "Default compression",
+  "privacyPolicy": "Privacy information",
+  "rateApp": "Rate app",
+  "appVersion": "App version",
+  "versionUnavailable": "Version unavailable",
+  "rateUnavailable": "Rating will be available after DocScan is published on Google Play.",
+  "settingsLoadFailed": "Settings could not be loaded. Please try again.",
+  "settingsSaveFailed": "The change could not be saved. Check free storage and try again.",
+  "skip": "Skip",
+  "getStarted": "Get started",
+  "introScanTitle": "Paper to PDF",
+  "introScanBody": "Scan multiple pages or import photos. Crop and clean them in the scanner before saving.",
+  "introCompressTitle": "Choose a smaller PDF",
+  "introCompressBody": "Compress a saved scan for forms and uploads. Check its size and clarity before saving a new copy.",
+  "introPrivateTitle": "Your files stay on your phone",
+  "introPrivateBody": "No account is needed. Share or export only when you choose. The scanner may need internet for its first setup.",
+  "privacyBody": "DocScan — current version\n\nYour scanned images, PDFs, document names and preferences are stored locally on this device. DocScan does not upload documents or require an account.\n\nScanning uses Google Play services and the ML Kit document scanner. Its initial component download or update may need internet and is managed by Google Play services. PDF preview and compression run on your device.\n\nSharing and Save to device send a copy only to the app or location you select. Those apps and storage providers have their own privacy practices.\n\nThis development version integrates Google Mobile Ads using Google test ad IDs. The advertising and consent SDKs may connect to Google and process device identifiers, IP address, app interactions and diagnostic information to serve ads, manage privacy choices and prevent fraud. No scanned images, PDFs, names or file paths are passed to the advertising SDK by DocScan. Ad requests are gated by Google UMP consent status. Where required, you can revisit Ad privacy choices in Settings. Ads need internet; scanning and saved files remain available without ads. Premium purchases use Google Play Billing. Google handles payment processing; DocScan does not receive your payment card details. A signed purchase receipt is stored privately on this device for offline ad-free access and checked with Google Play when available. Buying and restoring require Google Play connectivity. No document images, PDFs or names are sent to billing. There is no separate analytics SDK in this version.\n\nDelete documents from the Documents list. Uninstalling removes private app data; exported or shared copies remain in their destination. Android backup is disabled for private app data.\n\nThis offline information page is not a published Play Store privacy policy. A public policy URL and developer contact must be provided before release.",
+  "advertisement": "Advertisement",
+  "adPrivacyChoices": "Ad privacy choices",
+  "adPrivacyFailed": "Ad privacy choices could not be updated. Scanning is still available.",
+  "adPrivacyRetry": "Tap to try again",
+  "editPages": "Edit pages",
+  "editOriginalKept": "Crop, rotate or filter pages and save a new PDF copy. The original document stays unchanged.",
+  "cropHelp": "Drag each corner independently. Drag a middle handle to move that side, or drag inside to move all four corners. You can also tap a handle, then tap its new position.",
+  "cropTool": "Crop",
+  "cropShortHelp": "Drag corners separately. Middle handles move one side.",
+  "applyCrop": "Apply crop",
+  "cropFullPage": "Full page",
+  "rotateLeft": "Left",
+  "rotateRight": "Right",
+  "cropTopLeft": "Top-left corner",
+  "cropTopRight": "Top-right corner",
+  "cropBottomRight": "Bottom-right corner",
+  "cropBottomLeft": "Bottom-left corner",
+  "cropHorizontal": "Horizontal position",
+  "cropVertical": "Vertical position",
+  "cropCornerSelected": "Corner selected. Tap the image to place it.",
+  "preciseCrop": "Precise crop",
+  "cropLeft": "Left edge",
+  "cropTop": "Top edge",
+  "cropRight": "Right edge",
+  "cropBottom": "Bottom edge",
+  "pageFilter": "Page filter",
+  "filterOriginal": "Original color",
+  "filterGrayscale": "Grayscale",
+  "filterBlackWhite": "Black and white",
+  "rotatePage": "Rotate 90°",
+  "resetPage": "Reset this page",
+  "movePageEarlier": "Move earlier",
+  "movePageLater": "Move later",
+  "removePage": "Remove page",
+  "removePageBody": "Remove this page from the edited copy? The original document will keep it.",
+  "discardEdits": "Discard edits",
+  "discardEditsBody": "Leave without saving your changes?",
+  "editMissingPages": "The saved page images are missing. This document cannot be edited.",
+  "editFailed": "The edited document could not be saved. Check free storage and try again.",
+  "editSaving": "Saving edited PDF…",
+  "saveEditedCopy": "Save edited copy",
+  "editedDocumentName": "{name} (edited)",
+  "@editedDocumentName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumTitle": "DocScan Premium",
+  "premiumRemoveAds": "Remove ads",
+  "premiumBody": "A one-time purchase removes banner, interstitial and rewarded ads in DocScan.",
+  "premiumActive": "Premium is active",
+  "premiumActiveBody": "Your ad-free upgrade is saved on this device.",
+  "premiumBuy": "Buy once · {price}",
+  "restorePurchases": "Restore purchases",
+  "premiumRestoreHint": "Use the Google Play account you purchased with. Buying and restoring need an internet connection. Confirmed premium access remains available offline.",
+  "premiumNotConfigured": "Premium purchases are not available in this version yet.",
+  "premiumUnavailable": "Google Play purchases are unavailable. Check your connection and try again.",
+  "premiumPending": "Payment is pending. Premium will activate after Google Play confirms it.",
+  "premiumCancelled": "Purchase cancelled. You can try again when ready.",
+  "premiumPurchaseFailed": "The purchase could not be completed. Try Restore purchases before buying again.",
+  "premiumVerificationFailed": "The purchase could not be verified. Check your connection and restore purchases.",
+  "premiumStorageFailed": "Premium access could not be saved or loaded. Free some storage and restore purchases.",
+  "premiumAcknowledgementPending": "Premium is active. Google Play confirmation is still pending; reconnect and restore purchases to finish it.",
+  "premiumRestored": "Your premium purchase has been restored.",
+  "premiumNoneFound": "No premium purchase was found for the current Google Play account.",
+  "@premiumBuy": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  }
+}

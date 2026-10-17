@@ -1,0 +1,231 @@
+{
+  "@@locale": "bn",
+  "appName": "ডকস্ক্যান",
+  "documentsTitle": "নথি",
+  "emptyDocumentsTitle": "আপনার প্রথম নথি স্ক্যান করুন",
+  "emptyDocumentsBody": "আপনার সংরক্ষিত পিডিএফগুলো এখানে দেখা যাবে।",
+  "scan": "স্ক্যান",
+  "pageNotFound": "এই পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।",
+  "backToDocuments": "নথিতে ফিরে যান",
+  "largePdfPreview": "পিডিএফ সংরক্ষিত আছে। মেমোরির ব্যবহার কম রাখতে স্ক্যান করা পৃষ্ঠাগুলো দেখানো হচ্ছে।",
+  "pageCount": "{count, plural, =1{১ পৃষ্ঠা} other{{count} পৃষ্ঠা}}",
+  "documentTitle": "নথি",
+  "scanSaveFailed": "স্ক্যান সংরক্ষণ করা যায়নি। খালি জায়গা পরীক্ষা করে আবার চেষ্টা করুন।",
+  "scanInProgress": "স্ক্যান / সংরক্ষণ হচ্ছে…",
+  "previousPage": "আগের পৃষ্ঠা",
+  "documentsLoadFailed": "সংরক্ষিত নথি লোড করা যায়নি।",
+  "scanPermissionDenied": "স্ক্যানার ক্যামেরা বা নির্বাচিত ছবিতে প্রবেশ করতে পারেনি। ডিভাইসের সেটিংসে অনুমতি পরীক্ষা করে আবার চেষ্টা করুন।",
+  "scanUnsupported": "এই ডিভাইসে নথি স্ক্যান করা সম্ভব নয়। অ্যান্ড্রয়েড ৭ বা পরবর্তী সংস্করণ এবং অন্তত ১.৭ জিবি মেমোরি প্রয়োজন।",
+  "scanServicesUnavailable": "গুগল প্লে সার্ভিস চালু বা আপডেট করে আবার স্ক্যান করুন।",
+  "loading": "লোড হচ্ছে",
+  "previewFailed": "পিডিএফ খোলা যায়নি। এটি অনুপস্থিত বা ক্ষতিগ্রস্ত হতে পারে।",
+  "scanCorruptOutput": "স্ক্যানার অসম্পূর্ণ বা পড়ার অযোগ্য নথি দিয়েছে। আবার স্ক্যান করুন।",
+  "defaultDocumentName": "স্ক্যান {date}",
+  "documentMissing": "এই নথিটি খুঁজে পাওয়া যায়নি।",
+  "scanUnavailable": "স্ক্যানার চালু করা যায়নি। গুগল প্লে সার্ভিস আপডেট করুন এবং প্রথমবার সেটআপের জন্য ইন্টারনেটে যুক্ত হয়ে আবার চেষ্টা করুন।",
+  "nextPage": "পরের পৃষ্ঠা",
+  "currentPage": "{total} পৃষ্ঠার মধ্যে {page} নম্বর পৃষ্ঠা",
+  "scanNoSpace": "এই স্ক্যান সংরক্ষণের জন্য পর্যাপ্ত জায়গা নেই। কিছু জায়গা খালি করে আবার স্ক্যান করুন।",
+  "retry": "আবার চেষ্টা করুন",
+  "searchDocuments": "নথি খুঁজুন",
+  "clearSearch": "অনুসন্ধান মুছুন",
+  "sort": "সাজান",
+  "sortNewest": "নতুন আগে",
+  "sortOldest": "পুরোনো আগে",
+  "sortName": "নাম",
+  "noSearchResults": "কোনো নথি পাওয়া যায়নি",
+  "selectAll": "সব ফলাফল নির্বাচন করুন",
+  "delete": "মুছুন",
+  "deleteDocuments": "নথি মুছবেন?",
+  "cancel": "বাতিল",
+  "rename": "নাম পরিবর্তন",
+  "save": "সংরক্ষণ",
+  "documentName": "নথির নাম",
+  "nameRequired": "নথির নাম লিখুন",
+  "share": "শেয়ার",
+  "saveToDevice": "ডিভাইসে সংরক্ষণ",
+  "documentSaved": "আপনার নির্বাচিত স্থানে PDF সংরক্ষিত হয়েছে",
+  "documentActionFailed": "কাজটি সম্পন্ন হয়নি। PDF আছে এবং পর্যাপ্ত খালি জায়গা আছে কি না দেখে আবার চেষ্টা করুন।",
+  "deleteCleanupPending": "নথি মুছে ফেলা হয়েছে। অ্যাপ আবার খুললে বাকি অস্থায়ী ফাইল পরিষ্কার হবে।",
+  "sizeKilobytes": "{size} কেবি",
+  "@sizeKilobytes": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "sizeMegabytes": "{size} এমবি",
+  "@sizeMegabytes": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "selectedCount": "{count}টি নির্বাচিত",
+  "@selectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "documentsDeleted": "{count}টি নথি মুছে ফেলা হয়েছে",
+  "@documentsDeleted": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteConfirmation": "নির্বাচিত {count}টি নথি ও স্ক্যান করা পৃষ্ঠাগুলো স্থায়ীভাবে মুছবেন? এগুলো আর ফেরত আনা যাবে না।",
+  "@deleteConfirmation": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "compressPdf": "PDF ছোট করুন",
+  "compressionChoice": "মান অথবা লক্ষ্য সাইজ",
+  "qualityHigh": "উচ্চ মান",
+  "qualityMedium": "মাঝারি মান",
+  "qualityLow": "কম মান",
+  "compressionStart": "ছোট করুন",
+  "compressionWorking": "ছোট করা হচ্ছে…",
+  "compressionSaving": "ছোট করা কপি সংরক্ষণ হচ্ছে…",
+  "compressionCancelling": "বাতিল হচ্ছে…",
+  "compressionOriginalKept": "নতুন কপি সংরক্ষণ হবে। মূল নথি অপরিবর্তিত থাকবে।",
+  "compressionQualityWarning": "ফাইল ছোট করলে ছোট লেখা ঝাপসা হতে পারে। সংরক্ষণের আগে প্রিভিউ দেখে নিন।",
+  "compressionTargetNote": "১ কেবি = ১,০২৪ বাইট হিসাবে লক্ষ্য সাইজ নির্ধারিত হয়। কিছু নথি ছোট লক্ষ্য সাইজে আনা সম্ভব নয়।",
+  "compressionBefore": "মূল PDF",
+  "compressionAfter": "ছোট করা PDF",
+  "compressionTargetMissed": "লক্ষ্য সাইজ অর্জিত হয়নি। উপলব্ধ মানগুলোর মধ্যে এটি সবচেয়ে ছোট ফলাফল। সংরক্ষণের আগে লেখা পড়া যাচ্ছে কি না দেখুন।",
+  "compressionNotSmaller": "এই ফলাফল মূল ফাইলের চেয়ে ছোট হয়নি। কম মান বা ছোট লক্ষ্য সাইজ বেছে নিন।",
+  "saveCompressedCopy": "নতুন কপি সংরক্ষণ",
+  "compressedDocumentName": "{name} (ছোট কপি)",
+  "compressionMissingPages": "মূল PDF বা স্ক্যান করা পৃষ্ঠা পাওয়া যাচ্ছে না। নথিটি আবার স্ক্যান করুন।",
+  "compressionCorruptPage": "স্ক্যান করা একটি পৃষ্ঠা পড়া যাচ্ছে না। নথিটি আবার স্ক্যান করুন।",
+  "compressionPageTooLarge": "একটি পৃষ্ঠা প্রক্রিয়া করার জন্য যথেষ্ট মেমোরি নেই। কম সাইজে আবার স্ক্যান করুন।",
+  "compressionNoSpace": "ফাইল ছোট করা বা সংরক্ষণের জন্য যথেষ্ট খালি জায়গা নেই। কিছু জায়গা খালি করে আবার চেষ্টা করুন।",
+  "compressionFailed": "ফাইল ছোট করা সম্পন্ন হয়নি। মূল নথি নিরাপদ আছে। আবার চেষ্টা করুন।",
+  "compressionPreview": "প্রথম পৃষ্ঠার প্রিভিউ",
+  "compressionProgress": "চেষ্টা {attempt}/{attempts} · পৃষ্ঠা {page}/{pages}",
+  "compressionReduction": "{percent}% ছোট",
+  "@compressedDocumentName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@compressionReduction": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "@compressionProgress": {
+    "placeholders": {
+      "attempt": {
+        "type": "int"
+      },
+      "attempts": {
+        "type": "int"
+      },
+      "page": {
+        "type": "int"
+      },
+      "pages": {
+        "type": "int"
+      }
+    }
+  },
+  "settings": "সেটিংস",
+  "language": "ভাষা",
+  "languageEnglish": "English",
+  "languageBangla": "বাংলা",
+  "followSystem": "ডিভাইস অনুযায়ী",
+  "theme": "থিম",
+  "themeLight": "হালকা",
+  "themeDark": "গাঢ়",
+  "defaultCompression": "ডিফল্ট কম্প্রেশন",
+  "privacyPolicy": "গোপনীয়তার তথ্য",
+  "rateApp": "অ্যাপের রেটিং দিন",
+  "appVersion": "অ্যাপের সংস্করণ",
+  "versionUnavailable": "সংস্করণ জানা যাচ্ছে না",
+  "rateUnavailable": "Google Play-এ DocScan প্রকাশের পর রেটিং দেওয়া যাবে।",
+  "settingsLoadFailed": "সেটিংস লোড করা যায়নি। আবার চেষ্টা করুন।",
+  "settingsSaveFailed": "পরিবর্তন সংরক্ষণ করা যায়নি। খালি জায়গা দেখে আবার চেষ্টা করুন।",
+  "skip": "এড়িয়ে যান",
+  "getStarted": "শুরু করুন",
+  "introScanTitle": "কাগজ থেকে PDF",
+  "introScanBody": "একাধিক পৃষ্ঠা স্ক্যান করুন বা ছবি আনুন। সংরক্ষণের আগে স্ক্যানারে ক্রপ ও পরিষ্কার করুন।",
+  "introCompressTitle": "ছোট PDF তৈরি করুন",
+  "introCompressBody": "ফর্মে আপলোডের জন্য স্ক্যান কম্প্রেস করুন। নতুন কপি সংরক্ষণের আগে আকার ও স্পষ্টতা দেখুন।",
+  "introPrivateTitle": "আপনার ফাইল ফোনেই থাকে",
+  "introPrivateBody": "অ্যাকাউন্ট লাগবে না। আপনার ইচ্ছায় শেয়ার বা এক্সপোর্ট করুন। স্ক্যানারের প্রথম সেটআপে ইন্টারনেট লাগতে পারে।",
+  "privacyBody": "DocScan — বর্তমান সংস্করণ\n\nস্ক্যানের ছবি, PDF, নথির নাম ও পছন্দ এই ডিভাইসেই সংরক্ষিত থাকে। DocScan নথি আপলোড করে না এবং অ্যাকাউন্ট লাগে না।\n\nস্ক্যানের জন্য Google Play services ও ML Kit document scanner ব্যবহৃত হয়। প্রথমবারের কম্পোনেন্ট ডাউনলোড বা আপডেটে ইন্টারনেট লাগতে পারে; এটি Google Play services পরিচালনা করে। PDF দেখা ও কম্প্রেশন ফোনেই হয়।\n\nশেয়ার ও ডিভাইসে সংরক্ষণ করলে কেবল আপনার নির্বাচিত অ্যাপ বা স্থানে কপি পাঠানো হয়। সেসব অ্যাপ ও স্টোরেজ সেবার নিজস্ব গোপনীয়তা নীতি আছে।\n\nএই উন্নয়ন সংস্করণে Google-এর test ad ID দিয়ে Google Mobile Ads যুক্ত আছে। বিজ্ঞাপন দেখানো, গোপনীয়তার পছন্দ পরিচালনা ও প্রতারণা ঠেকাতে বিজ্ঞাপন এবং consent SDK Google-এর সঙ্গে সংযোগ করে ডিভাইসের শনাক্তকারী, IP address, অ্যাপ ব্যবহারের তথ্য ও diagnostic তথ্য প্রক্রিয়া করতে পারে। DocScan স্ক্যানের ছবি, PDF, নথির নাম বা ফাইলের পথ বিজ্ঞাপনের SDK-তে পাঠায় না। Google UMP-এর consent অবস্থা অনুযায়ী ad request করা হয়। প্রয়োজন হলে Settings থেকে বিজ্ঞাপনের গোপনীয়তা পছন্দ আবার বদলাতে পারবেন। বিজ্ঞাপনে ইন্টারনেট লাগে; বিজ্ঞাপন ছাড়াও স্ক্যান ও সংরক্ষিত ফাইল ব্যবহার করা যাবে। প্রিমিয়াম কেনাকাটায় Google Play Billing ব্যবহার করা হয়। Google পেমেন্ট পরিচালনা করে; DocScan আপনার পেমেন্ট কার্ডের তথ্য পায় না। অফলাইনে বিজ্ঞাপনমুক্ত সুবিধার জন্য signed purchase receipt এই ডিভাইসে ব্যক্তিগতভাবে সংরক্ষিত থাকে এবং সংযোগ থাকলে Google Play-এর সঙ্গে কেনাকাটা যাচাই করা হয়। কেনা ও ফিরিয়ে আনতে Google Play সংযোগ প্রয়োজন। নথির ছবি, PDF বা নাম billing-এ পাঠানো হয় না। এই সংস্করণে আলাদা analytics SDK নেই।\n\nনথির তালিকা থেকে নথি মুছুন। আনইনস্টল করলে অ্যাপের ব্যক্তিগত ডেটা মুছে যায়; এক্সপোর্ট বা শেয়ার করা কপি গন্তব্যে থেকে যায়। ব্যক্তিগত অ্যাপ ডেটার Android backup বন্ধ আছে।\n\nএটি offline তথ্য পেজ, প্রকাশিত Play Store privacy policy নয়। প্রকাশের আগে public policy URL ও ডেভেলপারের যোগাযোগের তথ্য দিতে হবে।",
+  "advertisement": "বিজ্ঞাপন",
+  "adPrivacyChoices": "বিজ্ঞাপনের গোপনীয়তা পছন্দ",
+  "adPrivacyFailed": "বিজ্ঞাপনের গোপনীয়তা পছন্দ আপডেট করা যায়নি। স্ক্যান করা যাবে।",
+  "adPrivacyRetry": "আবার চেষ্টা করতে চাপুন",
+  "editPages": "পৃষ্ঠা এডিট",
+  "editOriginalKept": "ক্রপ, ঘোরানো বা ফিল্টার দিয়ে নতুন PDF কপি সংরক্ষণ করুন। আগের নথি অক্ষত থাকবে।",
+  "cropHelp": "প্রতিটি কোণা আলাদাভাবে টানুন। মাঝের হ্যান্ডেল টানলে সেই পাশ, আর ভেতরে টানলে চার কোণা একসঙ্গে সরবে। হ্যান্ডেলে ট্যাপ করে তারপর নতুন জায়গায় ট্যাপ করেও সরাতে পারবেন।",
+  "cropTool": "ক্রপ",
+  "cropShortHelp": "কোণা আলাদাভাবে টানুন। মাঝের হ্যান্ডেল টানলে সেই পাশ সরবে।",
+  "applyCrop": "ক্রপ প্রয়োগ করুন",
+  "cropFullPage": "পুরো পৃষ্ঠা",
+  "rotateLeft": "বামে",
+  "rotateRight": "ডানে",
+  "cropTopLeft": "ওপরের বাঁ কোণা",
+  "cropTopRight": "ওপরের ডান কোণা",
+  "cropBottomRight": "নিচের ডান কোণা",
+  "cropBottomLeft": "নিচের বাঁ কোণা",
+  "cropHorizontal": "অনুভূমিক অবস্থান",
+  "cropVertical": "উল্লম্ব অবস্থান",
+  "cropCornerSelected": "কোণা নির্বাচন করা হয়েছে। বসানোর জন্য ছবিতে ট্যাপ করুন।",
+  "preciseCrop": "সূক্ষ্ম ক্রপ",
+  "cropLeft": "বাম প্রান্ত",
+  "cropTop": "উপরের প্রান্ত",
+  "cropRight": "ডান প্রান্ত",
+  "cropBottom": "নিচের প্রান্ত",
+  "pageFilter": "পৃষ্ঠার ফিল্টার",
+  "filterOriginal": "আসল রং",
+  "filterGrayscale": "ধূসর",
+  "filterBlackWhite": "সাদা-কালো",
+  "rotatePage": "৯০° ঘোরান",
+  "resetPage": "এই পৃষ্ঠা রিসেট",
+  "movePageEarlier": "আগে সরান",
+  "movePageLater": "পরে সরান",
+  "removePage": "পৃষ্ঠা বাদ দিন",
+  "removePageBody": "এডিট করা কপি থেকে এই পৃষ্ঠা বাদ দেবেন? আগের নথিতে এটি থাকবে।",
+  "discardEdits": "এডিট বাতিল",
+  "discardEditsBody": "পরিবর্তন সংরক্ষণ না করে বের হবেন?",
+  "editMissingPages": "সংরক্ষিত পৃষ্ঠার ছবি পাওয়া যাচ্ছে না। এই নথি এডিট করা যাচ্ছে না।",
+  "editFailed": "এডিট করা নথি সংরক্ষণ করা যায়নি। খালি জায়গা দেখে আবার চেষ্টা করুন।",
+  "editSaving": "এডিট করা PDF সংরক্ষণ হচ্ছে…",
+  "saveEditedCopy": "এডিট করা কপি সংরক্ষণ",
+  "editedDocumentName": "{name} (এডিট করা)",
+  "premiumTitle": "DocScan প্রিমিয়াম",
+  "premiumRemoveAds": "বিজ্ঞাপন সরান",
+  "premiumBody": "একবার কিনলে DocScan-এর ব্যানার, পূর্ণপর্দা ও rewarded বিজ্ঞাপন বন্ধ থাকবে।",
+  "premiumActive": "প্রিমিয়াম চালু আছে",
+  "premiumActiveBody": "আপনার বিজ্ঞাপনমুক্ত আপগ্রেড এই ডিভাইসে সংরক্ষিত আছে।",
+  "premiumBuy": "একবার কিনুন · {price}",
+  "restorePurchases": "আগের কেনাকাটা ফিরিয়ে আনুন",
+  "premiumRestoreHint": "যে Google Play অ্যাকাউন্ট দিয়ে কিনেছেন সেটি ব্যবহার করুন। কেনা ও ফিরিয়ে আনতে ইন্টারনেট লাগবে। নিশ্চিত প্রিমিয়াম সুবিধা অফলাইনেও থাকবে।",
+  "premiumNotConfigured": "এই সংস্করণে প্রিমিয়াম কেনা এখনো চালু হয়নি।",
+  "premiumUnavailable": "Google Play কেনাকাটা পাওয়া যাচ্ছে না। সংযোগ দেখে আবার চেষ্টা করুন।",
+  "premiumPending": "পেমেন্ট অপেক্ষায় আছে। Google Play নিশ্চিত করলে প্রিমিয়াম চালু হবে।",
+  "premiumCancelled": "কেনাকাটা বাতিল হয়েছে। প্রস্তুত হলে আবার চেষ্টা করতে পারবেন।",
+  "premiumPurchaseFailed": "কেনাকাটা শেষ করা যায়নি। আবার কেনার আগে আগের কেনাকাটা ফিরিয়ে আনার চেষ্টা করুন।",
+  "premiumVerificationFailed": "কেনাকাটা যাচাই করা যায়নি। সংযোগ দেখে আগের কেনাকাটা ফিরিয়ে আনুন।",
+  "premiumStorageFailed": "প্রিমিয়াম সুবিধা সংরক্ষণ বা লোড করা যায়নি। কিছু জায়গা খালি করে আগের কেনাকাটা ফিরিয়ে আনুন।",
+  "premiumAcknowledgementPending": "প্রিমিয়াম চালু আছে। Google Play-এ নিশ্চিতকরণ বাকি; সংযোগ দিয়ে আগের কেনাকাটা ফিরিয়ে এনে এটি শেষ করুন।",
+  "premiumRestored": "আপনার প্রিমিয়াম কেনাকাটা ফিরে এসেছে।",
+  "premiumNoneFound": "বর্তমান Google Play অ্যাকাউন্টে কোনো প্রিমিয়াম কেনাকাটা পাওয়া যায়নি।"
+}
